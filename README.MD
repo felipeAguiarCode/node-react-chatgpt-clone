@@ -5,11 +5,11 @@
 > 👨‍🚀 **Repo for the purpose of personal study**
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipeAguiarCode/node-ts-tdd-with-vitest-study.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipeAguiarCode/node-chatgpt-api.svg">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipeAguiarCode/node-ts-tdd-with-vitest-study.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipeAguiarCode/node-chatgpt-api.svg">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipeAguiarCode/node-ts-tdd-with-vitest-study.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipeAguiarCode/node-chatgpt-api.svg">
 </p>
 
 # ⚔️ Proposed challenge
@@ -34,7 +34,7 @@ This code source was developed with the following technologies:
 
 ### 🐱‍👤 Techniques
 
-- [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+- [N-Tier Architecture](https://www.baeldung.com/cs/n-tier-architecture)
 
 ## :information_source: How To Use
 
@@ -42,14 +42,14 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/felipeAguiarCode/node-ts-tdd-with-vitest-study
+$ git clone https://github.com/felipeAguiarCode/node-chatgpt-api
 
 # Go into the repository
-$ cd node-ts-tdd-with-vitest-study
+$ cd node-chatgpt-api
 
 # Install dependencies
 $ npm install
 
-# Run the tests
-$ npm run test
+# Run (development ambient)
+$ npm run dev
 ```
