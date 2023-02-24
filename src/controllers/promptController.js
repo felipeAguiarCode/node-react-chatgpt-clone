@@ -1,12 +1,20 @@
 const express = require("express")
 const open = require("../config/openIA")
 
+const { Configuration, OpenAIApi } = require('openai')
+
 require("dotenv").config()
 
 module.exports = {
 	async sendText(req, res){
 
-		const openai = await open.createOpenAIApi()
+		//const openai = await open.createOpenAIApi()
+
+		const configuration = new Configuration({
+			apiKey: process.env.OPEN_AI_KEY,
+		})
+
+		const openai = new OpenAIApi(configuration)
 
 		try {
 			const response = await openai.createCompletion({
