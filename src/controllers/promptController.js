@@ -1,5 +1,6 @@
 const express = require("express")
 const open = require("../config/openIA")
+const InputPrompt = require("../models/input-prompt")
 
 const { Configuration, OpenAIApi } = require('openai')
 
@@ -16,11 +17,14 @@ module.exports = {
 
 		const openai = new OpenAIApi(configuration)
 
+		const prompt = req.body.prompt
+		console.log(prompt)
+
 		try {
 			const response = await openai.createCompletion({
 				model:"text-davinci-003",
 				prompt:`
-					escreva um looping com C# de 0 a 100
+					${prompt}
 					###
 				`,
 				max_tokens: 64,
