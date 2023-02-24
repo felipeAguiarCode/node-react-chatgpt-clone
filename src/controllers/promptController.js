@@ -18,21 +18,16 @@ module.exports = {
 		const openai = new OpenAIApi(configuration)
 
 		const prompt = req.body.prompt
-		console.log(prompt)
 
 		try {
 			const response = await openai.createCompletion({
 				model:"text-davinci-003",
-				prompt:`
-					${prompt}
-					###
-				`,
-				max_tokens: 64,
-				temperature:0,
-				top_p:1.0,
-				frequency_penalty: 0.0,
-				presence_penalty: 0.0,
-				stop: ["\n"]
+				prompt:`${prompt}`,
+				max_tokens: 3500,
+				temperature:0.5,
+				top_p:1,
+				frequency_penalty: 0,
+				presence_penalty: 0
 			})
 
 			return res.status(200).json({
