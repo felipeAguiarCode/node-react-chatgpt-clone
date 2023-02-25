@@ -4,4 +4,4 @@ class InputPrompt {
 	}
 }
 
-module.exports = {InputPrompt}
+module.exports = InputPrompt
