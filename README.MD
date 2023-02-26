@@ -12,7 +12,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipeAguiarCode/node-chatgpt-api.svg">
 </p>
 
-# ⚔️ Proposed challenge
+# ⚔️ Proposed Challenge
 
 Create a api integration with openIA text completion  **(ChatGPT)** with Node.
 
@@ -60,4 +60,8 @@ $ npm install
 
 # Run (development ambient)
 $ npm run dev
+```
+* to use openai lib
+```bash
+The library needs to be configured with your account's secret key, which is available on the website. Setting API key as an environment variable in .env. before run
 ```
