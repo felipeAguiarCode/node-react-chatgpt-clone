@@ -16,6 +16,13 @@
 
 Create a api integration with openIA text completion  **(ChatGPT)** with Node.
 
+
+```
+# Routes
+POST     /api/prompt      sending prompt to text completion
+
+```
+
 # 🚀 Technologies
 
 This code source was developed with the following technologies:
@@ -23,16 +30,17 @@ This code source was developed with the following technologies:
 ### ⚛️ Main Techs
 
 - [Node.js](https://nodejs.org/en/)
-- [Javascript](https://www.typescriptlang.org/)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### 📚 Libs & Dependencys
 
-- [openAI](https://npmjs.com/package/openai)
-- [express](https://.npmjs.com/package/express)
-- [cors](https://.npmjs.com/package/cors)
-- [dotenv](https://.npmjs.com/package/dotenv)
+- [openAI](https://npmjs.com/package/openai) - To integrate with openAI Algorhitms
+- [express](https://.npmjs.com/package/express) - For create rest apis with more
+- [cors](https://.npmjs.com/package/cors) - Control access to api requests/resources
+- [dotenv](https://.npmjs.com/package/dotenv) - Configuration custom file
+- [nodemon](https://.npmjs.com/package/nodemon) - Node monitoring server for development
 
-### 🐱‍👤 Techniques
+### 🥷 Techniques
 
 - [N-Tier Architecture](https://www.baeldung.com/cs/n-tier-architecture)
 
