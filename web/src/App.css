@@ -74,6 +74,7 @@
   /* border:1px solid white; */
   background-color: #353541;
   position: relative;
+  overflow-y:auto;
 }
 
 .chat-input-holder{
@@ -100,8 +101,8 @@
 }
 
 .chat-log{
- 
   text-align: left;
+  white-space: "pre-wrap";
 }
 
 .chat-message.chatgpt{
